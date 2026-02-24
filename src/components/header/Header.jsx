@@ -15,7 +15,7 @@ function Header() {
                 <ul className='ul-list'>
                     <li><NavLink to="/">Home</NavLink></li>
 
-                    <li><NavLink to="/shop">Shop</NavLink></li>
+                    <li><NavLink to="/shop">Book</NavLink></li>
 
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>

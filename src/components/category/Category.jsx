@@ -2,9 +2,9 @@ import React from "react";
 import "./category.css";
 
 import { NavLink } from "react-router-dom";
-import cart1Img from "../../assets/hodie.jpg";
-import cat from "../../assets/cap.jpg"
-import gogg2 from "../../assets/futbolka.jpg"
+import cart1Img from "../../assets/hoodie.png";
+import cat from "../../assets/cap.png";
+import gogg2 from "../../assets/futbolka.png"
 import { FaArrowRight } from "react-icons/fa6";
 import { color } from "framer-motion";
 
@@ -14,10 +14,10 @@ function Category() {
       <div className="imgsBox">
         <div className="cart1">
           <div className="btns">
-            <h3>Hoodie</h3>
+            <h3>Mans</h3>
             <button>
               <NavLink to={"/shop"}>
-                Shop Now <FaArrowRight />
+                Book Now <FaArrowRight />
               </NavLink>
             </button>
           </div>
@@ -27,10 +27,10 @@ function Category() {
         <div className="twiceImgsBox">
           <div className="cart2">
             <div className="btns2">
-              <h3>Cap</h3>
+              <h3>Best Models</h3>
               <button>
                 <NavLink to={"/shop"}>
-                  Shop Now <FaArrowRight />
+                  Book Now <FaArrowRight />
                 </NavLink>
               </button>
             </div>
@@ -39,10 +39,10 @@ function Category() {
 
           <div className="cart2">
             <div className="btns3">
-              <h3>T-shirt</h3>
+              <h3>Women</h3>
               <button>
                 <NavLink to={"/shop"}>
-                  Shop Now <FaArrowRight />
+                  Book Now <FaArrowRight />
                 </NavLink>
               </button>
             </div>

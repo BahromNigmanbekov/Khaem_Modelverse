@@ -11,16 +11,16 @@ function SalePrice() {
         <img className="imge" src={fet} alt="" />
         <div className="text">
           <span>SALE UP TO 35% OFF</span>
-          <h2>Paxta. </h2>
+          <h2>Khaem Modelverse. </h2>
           <p>
-            Discover our exclusive collection of Paxta clothing, where style meets
-            comfort. Enjoy up to 35% off on selected items and elevate your wardrobe
-            with timeless pieces crafted for everyday elegance.
+            BOOK TOP MODELS – UP TO 35% OFF
+
+            Discover our exclusive selection of models on Khaem Modelverse, where talent meets professionalism. Enjoy special offers on select profiles and book top models to elevate your campaigns with style, creativity, and confidence. Perfect for fashion shoots, lifestyle campaigns, and editorial projects.
           </p>
 
           <button>
             <NavLink to={"/shop"}>
-              Shop Now <FaArrowRight />
+              Book Now <FaArrowRight />
             </NavLink>
           </button>
         </div>

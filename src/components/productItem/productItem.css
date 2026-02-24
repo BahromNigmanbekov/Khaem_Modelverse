@@ -1,7 +1,7 @@
 
  .product-card {
   width: 350px;
-  background: #fff;
+  background: #FDFDFD;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -34,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.4s ease;
 }
 

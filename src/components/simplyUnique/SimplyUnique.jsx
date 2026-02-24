@@ -11,9 +11,9 @@ function SimplyUnique() {
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            Simply Paxta<span className="gray">/</span>
+            Khaem Modelverse<span className="gray">/</span>
             <br className="br" />
-            Simply Clothes<span className="gray">.</span>
+            Models Era<span className="gray">.</span>
           </h2>
 
           <p
@@ -21,8 +21,7 @@ function SimplyUnique() {
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <span className="simplySpan">Paxta</span>is a clothing brand based in Tashkent, Uzbekistan,<br /> 
-              focused on modern design, everyday comfort, and timeless style.
+            <span className="simplySpan">Khaem Modelverse </span>is a model booking platform based in Tashkent, Uzbekistan, connecting brands, agencies, and creatives with professional models for fashion, commercial, and digital projects.
           </p>
         </div>
       </div>

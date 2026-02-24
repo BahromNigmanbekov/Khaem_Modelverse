@@ -23,10 +23,10 @@ function Footer() {
           <div className="footerLogos">
             <NavLink to="/" className="black">
               <h1 className="footerLogo">
-                Paxta<span className="gray">.</span>
+                KH<span className="gray">.</span>
               </h1>
             </NavLink>
-            <span>Paxta. / Arrivals</span>
+            <span>Khaem Modelverse. / Arrivals</span>
           </div>
 
           <ul className="footerList">

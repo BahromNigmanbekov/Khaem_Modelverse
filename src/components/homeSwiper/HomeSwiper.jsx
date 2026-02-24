@@ -6,9 +6,10 @@ import "swiper/css/navigation";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/pagination";
 
-import swiperImg from "../../assets/3.png";
+import swiperImg from "../../assets/1.png";
 import swiperImg2 from "../../assets/2.png";
-import swiperImg3 from "../../assets/1.png";
+import swiperImg3 from "../../assets/3.png";
+import swiperImg4 from "../../assets/4.png";
 import swiperBtn from "../../assets/button.svg";
 import swiperBtn2 from "../../assets/button2.svg";
 
@@ -25,7 +26,7 @@ function HomeSwiper() {
           prevEl: ".swiperPrev",
         }}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 1000 }}
         loop={true}
       >
         <button className="swiperNext">
@@ -43,6 +44,9 @@ function HomeSwiper() {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img src={swiperImg3} alt="slide3" />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img src={swiperImg4} alt="slide4" />
         </SwiperSlide>
       </Swiper>
     </div>
