@@ -15,7 +15,7 @@ function ProductItem({ id, image, price, title, index }) {
         </div>
 
         <h3 className="product-title">{title}</h3>
-        <p className="product-price">{price} $ soatiga</p>
+        <p className="product-price">{price} $ per hour</p>
       </NavLink>
     </div>
   );
