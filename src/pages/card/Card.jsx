@@ -19,7 +19,7 @@ function Card() {
   const [quantity, setQuantity] = useState(1);
 
   const BOT_TOKEN = "8700685048:AAEF0I0WWPwYQ5s8vVTZBejZfffReVqnA1E";
-  const CHAT_ID = "6877805958";
+  const CHAT_ID = "8398715237";
 
   useEffect(() => {
     fetch(`https://6923266609df4a4923247a93.mockapi.io/api/v1/product/${id}`)
