@@ -7,7 +7,7 @@ function Products() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://68d6bbe4c2a1754b426bbe49.mockapi.io/app/v1/product")
+    fetch("https://6923266609df4a4923247a93.mockapi.io/api/v1/product")
       .then((res) => res.json())
       .then((data) => setProductsData(data))
       .finally(() => setLoading(false));
@@ -22,12 +22,12 @@ function Products() {
     );
 
   const featuredProducts = [
-    getOneByType("cap"),
-    getOneByType("bag"),
-    getOneByType("hoodie"),
-    getOneByType("case"),
-    getOneByType("t-shirt"),
-    getOneByType("z-hoodie"),
+    getOneByType("isabella"),
+    getOneByType("liam"),
+    getOneByType("ethan"),
+    getOneByType("mia"),
+    getOneByType("sophia "),
+    getOneByType("ava"),
   ].filter(Boolean); 
 
   return (

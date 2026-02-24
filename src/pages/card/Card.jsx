@@ -21,7 +21,7 @@ function Card() {
   const CHAT_ID = "6877805958";
 
   useEffect(() => {
-    fetch(`https://68d6bbe4c2a1754b426bbe49.mockapi.io/app/v1/product/${id}`)
+    fetch(`https://6923266609df4a4923247a93.mockapi.io/api/v1/product/${id}`)
       .then((res) => res.json())
       .then((res) => {
         setData(res);

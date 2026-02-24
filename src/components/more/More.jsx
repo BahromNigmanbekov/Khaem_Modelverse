@@ -7,7 +7,7 @@ function More() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://68d6bbe4c2a1754b426bbe49.mockapi.io/app/v1/product")
+    fetch("https://6923266609df4a4923247a93.mockapi.io/api/v1/product")
       .then((res) => res.json())
       .then((data) => setProductsData(data))
       .finally(() => setLoading(false));

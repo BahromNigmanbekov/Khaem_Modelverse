@@ -2,6 +2,7 @@
   height: 100%;
   object-fit: cover;
   width: 50%;
+  border-bottom-right-radius: 60px;
 }
 
 .saleBoxList {
@@ -23,7 +24,7 @@
   height: 100%;
   text-align: start;
   width: 50%;
-  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
 }
 
 .text > span {

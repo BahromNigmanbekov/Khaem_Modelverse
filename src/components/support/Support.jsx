@@ -8,7 +8,7 @@ import call from "../../assets/call.svg";
 
 function Support() {
   return (
-    <section className="section">
+    <section className="sectionn">
       <div className="container">
         <div className="cardBoxList">
           <div className="card">

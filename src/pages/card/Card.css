@@ -4,8 +4,13 @@
   width: 100%;
   margin: 50px 0;
   justify-content: space-between;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  
+}
+
+.section{
+    padding-top: 120px;
+  padding-bottom: 150px;
+  background-color: #FDFDFD;
 }
 
 .leftContainer {
