@@ -28,7 +28,6 @@ function App() {
 
   return (
     <CartProvider>
-      {/* REMOVE <Router> */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

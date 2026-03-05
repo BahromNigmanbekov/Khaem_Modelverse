@@ -26,7 +26,7 @@ function Header() {
                     <button className="btn-search"><FaBell /></button>
                     <button className="btn-user"><FaUserAlt /></button>
 
-                    {/* Men qo‘shgan element */}
+                
                     <NavLink to="/cart" className="my-basket-btn">
                         <BsFillBasket3Fill />
                         <span className="my-cart-count">{cart.length}</span>

@@ -4,7 +4,6 @@ const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
 
-  // Savat state (localStorage bilan)
   const [cart, setCart] = useState(() => {
     const data = localStorage.getItem("cart");
     return data ? JSON.parse(data) : [];
@@ -30,12 +29,11 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  // Savatdan o‘chirish
+
   const removeFromCart = (id) => {
     setCart(cart.filter(item => item.id !== id));
   };
 
-  // Quantity oshirish
   const increaseQty = (id) => {
     setCart(
       cart.map(item =>
@@ -46,7 +44,7 @@ export const CartProvider = ({ children }) => {
     );
   };
 
-  // Quantity kamaytirish
+
   const decreaseQty = (id) => {
     setCart(
       cart
@@ -59,7 +57,7 @@ export const CartProvider = ({ children }) => {
     );
   };
 
-  // Total price
+ 
   const totalPrice = cart.reduce(
     (total, item) => total + item.price * item.quantity,
     0

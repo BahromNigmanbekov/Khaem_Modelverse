@@ -99,7 +99,7 @@ function Card() {
               <p className="price">{data?.price}$</p>
 
            <div className="county">
-               {/* QUANTITY */}
+               
               <div className="quantityBox">
                 <button
                   onClick={() =>
@@ -114,13 +114,13 @@ function Card() {
                 </button>
               </div>
 
-              {/* BUY BUTTON */}
+              
               <button className="buyBtn" onClick={() => setShowForm(true)}>
                 Booking
               </button>
            </div>
 
-              {/* FORM */}
+              
               {showForm && (
                 <div className="buyForm">
                   <input

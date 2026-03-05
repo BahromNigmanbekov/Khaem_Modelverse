@@ -7,12 +7,13 @@ function CarttPage() {
 
   return (
     <div className="container">
-      <h1>My Cart</h1>
+      <div className="pagecart"><h1>My Cart</h1></div>
 
       {cart.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
-        <div className="my-cart-items">
+       
+          <div className="my-cart-items">
 
           {cart.map(item => (
             <div key={item.id} className="my-cart-item">
@@ -40,11 +41,13 @@ function CarttPage() {
             </div>
           ))}
 
-          <h2>Total: ${totalPrice}</h2>
+          <div className="savat">
+            <h2 className="narxi">Total: ${totalPrice}</h2>
 
           <NavLink to="/checkout" className="my-checkout-btn">
             Proceed to Checkout
           </NavLink>
+          </div>
 
         </div>
       )}

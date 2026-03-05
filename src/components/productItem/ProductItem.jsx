@@ -21,7 +21,6 @@ function ProductItem({ id, image, price, title, index }) {
         <p className="product-price">{price} $ per hour</p>
       </NavLink>
 
-      {/* Men qo‘shgan element */}
       <button
         className="my-add-cart-btn"
         onClick={() => addToCart(product)}

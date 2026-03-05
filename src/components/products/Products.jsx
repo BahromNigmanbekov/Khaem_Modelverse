@@ -15,7 +15,7 @@ function Products() {
 
   if (loading) return <p>Loading...</p>;
 
-  // 👇 HAR BIR TURDAN BITTADAN OLISH
+
   const getOneByType = (keyword) =>
     productsData.find((p) =>
       p.title.toLowerCase().includes(keyword)
