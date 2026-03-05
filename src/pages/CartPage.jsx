@@ -10,7 +10,7 @@ function CarttPage() {
       <div className="pagecart"><h1>My Cart</h1></div>
 
       {cart.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p className="empity">Your cart is empty.</p>
       ) : (
        
           <div className="my-cart-items">

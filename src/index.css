@@ -135,7 +135,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   color: #000000;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 52px;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
@@ -199,6 +199,13 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.empity{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-bottom: 350px;
+}
 
 
 .my-confirm-btn {

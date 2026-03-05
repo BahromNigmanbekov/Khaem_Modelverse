@@ -39,7 +39,7 @@ function Checkout() {
       <div className="h1-check"><h1>Checkout</h1></div>
 
       {cart.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p className="empity">Your cart is empty.</p>
       ) : (
         <div className="my-checkout-items">
           {cart.map(item => (
