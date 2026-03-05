@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
-import "./Productitem.css";
+import './ProductItem.css'; // ✅ i harfi katta bo‘lishi kerak
 
 function ProductItem({ id, image, price, title, index }) {
   const { addToCart } = useCart();
