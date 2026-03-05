@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProductItem from "./ProductItem";
+import ProductItem from "../productItem/ProductItem";
 import "../products/products.css";
 
 function More() {
