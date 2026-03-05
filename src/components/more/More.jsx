@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ProductItem from "../ProductItemm/ProductItem";
-import "../products/products.css";
+import ProductItem from "../productItem/ProductItem";
+import "../productItem/ProductItem.css";
 
 function More() {
   const [productsData, setProductsData] = useState([]);

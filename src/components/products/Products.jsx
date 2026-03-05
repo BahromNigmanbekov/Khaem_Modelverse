@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProductItem from "../ProductItemm/ProductItem";
+import ProductItem from "../productItem/ProductItem";
 import "./products.css";
 
 function Products() {
