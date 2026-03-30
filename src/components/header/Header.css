@@ -145,7 +145,6 @@ a {
         width: 100%;
         height: calc(100vh - 70px);
         background: white;
-        gap: 25px;
         z-index: 999;
     }
 
@@ -163,6 +162,17 @@ a {
     }
 
     .ul-list li {
-        font-size: 20px;
+        width: 85%;
+        font-size: 18px;
+        margin-top: 12px;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 12px;
+        border-radius: 12px;
+        transition: all 0.5s;
+    }
+
+    .ul-list li:hover{
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     }
 }

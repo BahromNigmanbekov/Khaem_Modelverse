@@ -57,7 +57,7 @@ function Contact() {
             <div className="sectionTopCartItem">
               <HiOutlineMail className="sectionTopCartItemImgs" />
               <h3>EMAIL</h3>
-              <p>paxtaclothes@gmail.com</p>
+              <p>modelvers@gmail.com </p>
             </div>
           </div>
         </div>

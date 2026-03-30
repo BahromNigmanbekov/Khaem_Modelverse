@@ -25,19 +25,19 @@ function Header() {
 
                     <li className="mobile-only">
                         <NavLink to="/notifications" onClick={() => setMenuOpen(false)}>
-                            <FaBell /> Notifications
+                             Notifications
                         </NavLink>
                     </li>
 
                     <li className="mobile-only">
                         <NavLink to="/profile" onClick={() => setMenuOpen(false)}>
-                            <FaUserAlt /> Profile
+                             Profile
                         </NavLink>
                     </li>
 
                     <li className="mobile-only">
                         <NavLink to="/cart" onClick={() => setMenuOpen(false)}>
-                            <BsFillBasket3Fill /> Cart ({cart.length})
+                            Cart ({cart.length})
                         </NavLink>
                     </li>
                 </ul>
