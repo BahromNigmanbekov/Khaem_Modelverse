@@ -53,6 +53,7 @@ function Header() {
                 
                     <button className="burger" onClick={() => setMenuOpen(!menuOpen)}>
                         {menuOpen ? <FaTimes /> : <FaBars />}
+                        
                     </button>
                 </div>
 
