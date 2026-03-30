@@ -96,24 +96,73 @@ a {
     border: 1px solid #fff;
 }
 
+/* DEFAULT (DESKTOP) */
+.burger {
+    display: none;
+}
+
+.mobile-only {
+    display: none;
+}
+
 @media (max-width: 768px) {
+
+    /* HEADER STYLING */
     .header {
-    width: 100%;
-    margin-left: 0;
-    border-radius: 0px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    margin-top: 0;
-    
-}
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        margin-top: 0;
+    }
 
-.logo{
-    
-    font-size: 18px;
-}
+    /* Desktop icons yashirilsin */
+    .buttons .btn-search,
+    .buttons .btn-user,
+    .buttons .my-basket-btn {
+        display: none;
+    }
 
-.buttons {
-    display: flex;
-    gap: 0px;
-}
+    /* Burger icon ko‘rsatilsin */
+    .burger {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Mobile menu default hidden */
+    .ul-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: white;
+        gap: 25px;
+        z-index: 999;
+    }
+
+    /* Burger bosilganda menu chiqadi */
+    .ul-list.active {
+        display: flex;
+    }
+
+    /* Mobile-only items (icon + name) ko‘rsatilsin */
+    .mobile-only {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .ul-list li {
+        font-size: 20px;
+    }
 }
